@@ -1,0 +1,31 @@
+[0m14:23:41.027139 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d6437096870>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d6438010440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d64395e4170>]}
+
+
+============================== 14:23:41.118046 | c38fd931-1a2a-4f39-a727-1c98ec5d5ecb ==============================
+[0m14:23:41.118046 [info ] [MainThread]: Running with dbt=1.8.7
+[0m14:23:41.120564 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/torrej/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m14:23:41.203254 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/torrej/.dbt')}
+[0m14:23:41.203852 [info ] [MainThread]: Creating dbt configuration folder at
+[0m14:23:54.275644 [debug] [MainThread]: Starter project path: /home/torrej/dev/workshop_dbt/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m14:23:54.291336 [info ] [MainThread]:
+Your new dbt project "aula_01" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:23:54.293904 [info ] [MainThread]: Setting up your profile.
+[0m14:33:58.475195 [info ] [MainThread]: Profile aula_01 written to /home/torrej/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:33:58.477009 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 617.52686, "process_user_time": 4.188747, "process_kernel_time": 0.229821, "process_mem_max_rss": "102944", "process_in_blocks": "352", "process_out_blocks": "30016"}
+[0m14:33:58.478120 [debug] [MainThread]: Command `dbt init` succeeded at 14:33:58.477906 after 617.53 seconds
+[0m14:33:58.479300 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d6437bed280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d6437d38a70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d6437370fb0>]}
+[0m14:33:58.480902 [debug] [MainThread]: Flushing usage events
